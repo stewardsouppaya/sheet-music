@@ -2,7 +2,7 @@
 \header {
   title = "VOYELLES"
   subtitle = "pour saxophone alto, piano & percussions"
-  subsubtitle = "avec média & lumières"
+  subsubtitle = "avec diaporama & lumières"
 }
 	
 \score{
