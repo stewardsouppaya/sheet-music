@@ -3,10 +3,12 @@
   title = "VOYELLES"
   subtitle = "pour saxophone alto, piano & percussions"
   subsubtitle = "avec diaporama & lumières"
+  composer = "Compositeur"
 }
 	
 \score{
 	{
+\tempo 4 = 82
 \new StaffGroup <<
 
   \new Staff \with { instrumentName = "Saxophone" }
