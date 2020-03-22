@@ -1,13 +1,16 @@
+% LilyBin
 \header {
-  title = "Untitled"
-  composer = "Composer"
+  title = "VOYELLES"
+  subtitle = "pour saxophone alto, piano & percussions"
+  subsubtitle = "avec média & lumières"
 }
 
-\score {
-  \relative c' {
-    c4
-  }
 
-  \layout {}
-  \midi {}
+\score{
+	{
+		c'
+	}
+
+	\layout{}
+	\midi{}
 }
