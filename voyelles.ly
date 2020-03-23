@@ -15,29 +15,33 @@
    <<
   \relative {
   \compoundMeter #'((1 3 8))
-  <c'd'a'> 16-. <c'd'a'> 8.--}
+  <c'd'a'>16-. <c'd'a'>8.--}
 
   \new PianoStaff \with { instrumentName = "Vibraphone" }
   <<
   \new Staff 
   \relative { 
   \compoundMeter #'((1 3 8))  
-  \makeClusters { <g b>32 <c e'> }
-r1 r1 r1}
-  \new Staff \relative {
+  \makeClusters { <g b>16 <c e'> }
+  r8.}
+  \new Staff \relative {\clef bass
   \compoundMeter #'((1 3 8))
   r16
-    \makeClusters { <g' b>32 <c g'> } 
-  \clef bass c1 c }
+  \makeClusters { <c b>8. <c g'> } 
+  }
 
   \new PianoStaff \with { instrumentName = "Piano" }
   <<
-  \new Staff \relative { 
+  \new Staff   
+  \relative { 
   \compoundMeter #'((1 3 8))  
-  c''1 c }
-  \new Staff \relative { 
+  \makeClusters { <g b>16 <c e'> }
+r8.}
+  \new Staff \relative {\clef bass
   \compoundMeter #'((1 3 8))
-  \clef bass c1 c }
+  r16
+  \makeClusters { <c b>8. <c g'> } 
+  }
 >>
 >>
 >>
